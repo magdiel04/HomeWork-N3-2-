@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF620C7A290178DE009F74A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF620C79290178DE009F74A9 /* main.swift */; };
+		AF2FECE8290A92D600BDF73A /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2FECE7290A92D600BDF73A /* Animals.swift */; };
+		AF2FECEA290A930B00BDF73A /* Sheep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2FECE9290A930B00BDF73A /* Sheep.swift */; };
+		AF2FECEC290A934F00BDF73A /* Chiken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2FECEB290A934F00BDF73A /* Chiken.swift */; };
+		AF2FECEE290A937B00BDF73A /* dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2FECED290A937B00BDF73A /* dog.swift */; };
+		AF2FECF0290A938E00BDF73A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2FECEF290A938E00BDF73A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF2FECE7290A92D600BDF73A /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		AF2FECE9290A930B00BDF73A /* Sheep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheep.swift; sourceTree = "<group>"; };
+		AF2FECEB290A934F00BDF73A /* Chiken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chiken.swift; sourceTree = "<group>"; };
+		AF2FECED290A937B00BDF73A /* dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
+		AF2FECEF290A938E00BDF73A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AF620C76290178DE009F74A9 /* HomeWork N3 (2) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork N3 (2)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF620C79290178DE009F74A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,11 @@
 		AF620C6D290178DE009F74A9 = {
 			isa = PBXGroup;
 			children = (
+				AF2FECEF290A938E00BDF73A /* main.swift */,
+				AF2FECE7290A92D600BDF73A /* Animals.swift */,
+				AF2FECE9290A930B00BDF73A /* Sheep.swift */,
+				AF2FECEB290A934F00BDF73A /* Chiken.swift */,
+				AF2FECED290A937B00BDF73A /* dog.swift */,
 				AF620C78290178DE009F74A9 /* HomeWork N3 (2) */,
 				AF620C77290178DE009F74A9 /* Products */,
 			);
@@ -57,7 +70,6 @@
 		AF620C78290178DE009F74A9 /* HomeWork N3 (2) */ = {
 			isa = PBXGroup;
 			children = (
-				AF620C79290178DE009F74A9 /* main.swift */,
 			);
 			path = "HomeWork N3 (2)";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF620C7A290178DE009F74A9 /* main.swift in Sources */,
+				AF2FECE8290A92D600BDF73A /* Animals.swift in Sources */,
+				AF2FECF0290A938E00BDF73A /* main.swift in Sources */,
+				AF2FECEC290A934F00BDF73A /* Chiken.swift in Sources */,
+				AF2FECEE290A937B00BDF73A /* dog.swift in Sources */,
+				AF2FECEA290A930B00BDF73A /* Sheep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
